@@ -17,7 +17,6 @@ app.get('/', (req, res) => {
 });
 
 app.use('/api/products', productRoutes);
-app.use('/api/product', productRoutes);
 
 app.use(notFound);
 app.use(errorHandler);
