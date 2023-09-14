@@ -11,7 +11,7 @@
   - [Run](#run)
 - [Build & Deploy](#build--deploy)
   - [Seed Database](#seed-database)
-  * [License](#license)
+* [License](#license)
 
 <!-- tocstop -->
 
