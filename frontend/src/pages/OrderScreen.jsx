@@ -90,13 +90,13 @@ const OrderScreen = () => {
 				refetch();
 				toast.success("Payment successful");
 			} catch (err) {
-				toast.error(err.message);
+				toast.error(err?.data?.message || err.error);
 			}
 		});
 	};
 
 	const onError = async (err) => {
-		toast.error(err?.data?.message || err.message);
+		toast.error(err?.data?.message || err.error);
 	};
 
 	const deliverOrderHandler = async () => {
@@ -105,7 +105,7 @@ const OrderScreen = () => {
 			refetch();
 			toast.success("Order delivered");
 		} catch (err) {
-			toast.error(err?.data?.message || err.message);
+			toast.error(err?.data?.message || err.error);
 		}
 	};
 
