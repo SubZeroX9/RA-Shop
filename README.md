@@ -1,6 +1,8 @@
 # RAShop eCommerce Platform
-
 > eCommerce platform built with the MERN stack & Redux.
+ 
+ This Shop Can be accessed in the following Link: 
+ https://rashop.onrender.com
 
 <!-- toc -->
 
